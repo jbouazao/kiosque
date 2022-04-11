@@ -1,0 +1,29 @@
+.header {
+	display: flex;
+	padding: 0px 40px;
+	height: 70px;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	/* border: 1px solid black; */
+}
+
+.sidebarsearchmenu {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.actions {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 20px;
+	/* border: 1px solid black; */
+}
+
+.countryselector {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}

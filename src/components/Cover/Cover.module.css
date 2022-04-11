@@ -1,0 +1,11 @@
+.cover {
+	width: 100%;
+	height: 600px;
+	/* border: 1px solid black; */
+	background-image: linear-gradient(#E67A2E, #E3807C);
+	display: flex;
+	flex-direction: column;
+	gap: 100px;
+	justify-content: center;
+	align-items: center;
+}

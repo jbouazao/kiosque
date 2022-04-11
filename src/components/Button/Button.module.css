@@ -1,0 +1,20 @@
+button {
+	font-size: 14px;
+	font-weight: 700;
+	padding: 12px 24px;
+	border-radius: 7px;
+	cursor: pointer;
+	background: none;
+	border: none;
+}
+
+.fill {
+	background-color: #D75B33;
+	color: white;
+}
+
+.outline {
+	background: none;
+	border: 1px solid black;
+	color: black;
+}
