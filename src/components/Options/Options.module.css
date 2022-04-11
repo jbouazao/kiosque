@@ -1,11 +1,12 @@
 .options {
-	width: 100%;
+	width: 90%;
 	height: 100px;
 	/* border: 1px solid black; */
-	padding: 15px 0;
+	/* padding: 0px 40px; */
 	display: flex;
-	gap: 20px;
-	list-style: none;
+	/* gap: 20px; */
+	/* list-style: none; */
+	/* border: 1px solid black; */
 }
 
 .listitem {
@@ -20,4 +21,19 @@
 	gap: 20px;
 	font-size: 14px;
 	font-weight: 600;
+}
+
+.prevarrow {
+	color: grey;
+	padding: 0;
+	margin: 0;
+	width: 25px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	border: 1px solid black;
+}
+
+.prevarrow svg {
+	width: 100%;
 }
