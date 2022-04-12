@@ -1,0 +1,64 @@
+.contactwrapper {
+	width: 100%;
+	height: 350px;
+	background-image: linear-gradient(#E67A2E, #F0696D);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact {
+	width: 1000px;
+	padding-left: 40px;
+	height: 250px;
+	background: white;
+	display: flex;
+	align-items: center;
+}
+
+.descinput {
+	/* border: 1px solid black; */
+	height: 160px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+h4 {
+	font-size: 30px;
+}
+
+.p {
+	color: grey;
+}
+
+.inputbtn {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.input {
+	background: rgb(241, 241, 241);
+	height: 40px;
+	width: 260px;
+	padding: 5px;
+	padding-left: 10px;
+	border: none;
+	outline-style: none;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.btn {
+	height: 40px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.mailspaper {
+	height: 100%;
+}

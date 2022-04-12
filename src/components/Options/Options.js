@@ -66,8 +66,6 @@ const optionsData = [
 
 const Options = props => {
 	return <ul className = {classes.options}>
-		{/* {optionsData.map(item =>
-			<OptionBtn>{item.text}</OptionBtn>)} */}
 			{optionsData.map(item => <li className = {classes.listitem}>
 				<item.icon style = {{width: '30px', height: '30px', color: 'grey'}}/>
 				{item.text}</li>)}

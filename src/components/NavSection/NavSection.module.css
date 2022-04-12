@@ -1,0 +1,45 @@
+.navsection {
+	width: 100%;
+	display: flex;
+	gap: 50px;
+	height: 450px;
+	justify-content: center;
+	align-items: center;
+	/* padding: 30px; */
+}
+
+.bigbutton {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 350px;
+	width: 500px;
+	padding: 40px 0 40px 0;
+	background-image: linear-gradient(#E67A2E, #F0696D);
+	border-radius: 5px;
+}
+
+.titledesc {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+	padding-left: 20px;
+}
+
+.title {
+	font-size: 48px;
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+.iconwrapper {
+	width: 100%;
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 20px;
+}

@@ -13,7 +13,7 @@ const Header = props => {
 			<img style = {{width: '20px', height: '30px'}} src = {sidebarbutton} />
 			<Logo />
 			<SearchBar />
-			<img src = {optionsheader} style = {{height: '20px'}}/>
+			<img src = {optionsheader} style = {{height: '20px', width: '20px'}}/>
 		</div>
 		<div className = {classes.actions}>
 			<Button variant = 'outline'>Connexion</Button>

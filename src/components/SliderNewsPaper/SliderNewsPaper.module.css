@@ -1,0 +1,36 @@
+.sliderheader {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 40px 10px 40px;
+	/* border: 1px solid grey; */
+}
+
+.title {
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.voirtoutbtn {
+	font-size: 16px;
+	color: #ea754f;
+}
+
+.slider {
+	display: flex;
+	gap: 25px;
+	width: 100%;
+	height: 360px;
+	padding-top: 20px;
+	overflow: scroll;
+}
+
+.listitem {
+	list-style: none;
+}
+
+.hr {
+	width: 95%;
+	height: 1px;
+	margin: auto;
+	background-color: rgb(167, 167, 167);
+}

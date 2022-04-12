@@ -3,6 +3,7 @@ import cx from 'classnames'
 
 const Button = props => {
 	return <button className = {cx(
+		props.className,
 		classes.button,
 		{
 			[classes.fill]: props.variant === 'fill',
